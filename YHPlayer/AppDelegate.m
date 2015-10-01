@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FileUtil.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //创建文件夹
+    [FileUtil initCustomFileDir];
+    
+    //设置状态栏
+//    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+    
     return YES;
 }
 
