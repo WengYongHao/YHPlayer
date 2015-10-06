@@ -235,7 +235,6 @@
 				1D5AE81E1BB6794A00546024 /* Utils */,
 				1D619E321BB9A7EA00D1E05D /* Custom */,
 				1D9C9AE61BB69AB4003A3F5E /* Vender */,
-				1D5057CB1BB2592A00F64DDC /* Helper */,
 				1D5057C81BB2580600F64DDC /* Resource */,
 				1D4773401BB1BA330016B71D /* Supporting Files */,
 				1D4773731BB1BA430016B71D /* FrameWork */,
@@ -304,14 +303,6 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		1D5057CB1BB2592A00F64DDC /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				1D5057CC1BB2593200F64DDC /* Sandbox */,
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
 		1D5057CC1BB2593200F64DDC /* Sandbox */ = {
 			isa = PBXGroup;
 			children = (
@@ -319,6 +310,7 @@
 				1D5057CE1BB2594600F64DDC /* SandboxHelper.m */,
 			);
 			name = Sandbox;
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		1D54232C1BBC522600B9290A /* VideoList */ = {
@@ -389,6 +381,7 @@
 		1D5AE81E1BB6794A00546024 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				1D5057CC1BB2593200F64DDC /* Sandbox */,
 				1D5AE81F1BB6798E00546024 /* NSString+MD5.h */,
 				1D5AE8201BB6798E00546024 /* NSString+MD5.m */,
 				1D5A8AC81BBAD2560008125B /* DismissSegue.h */,
